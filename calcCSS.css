@@ -1,0 +1,159 @@
+/* Basic reset */
+@media (min-width: 768px)  {
+    
+    #calculator{
+        
+        width:310px;
+        height: 400px;
+    }
+    .new{
+        
+        width:285px;
+        height: 60px;
+    }
+    button,  input[type="button"] {
+        
+        width:58px;
+        height: 58px;
+        font-size: 28px;
+         padding: 7px;
+        
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+    #calculator{
+        
+        width:310px;
+        height: 400px;
+    }
+    .new{
+        
+        width:285px;
+        height: 60px;
+    }
+    button,  input[type="button"] {
+        
+        width:58px;
+        height: 58px;
+        font-size: 28px;
+         padding: 7px;
+        
+    }
+    
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    
+    #calculator{
+        
+        width:250px;
+        height: 360px;
+         padding: 7px;
+    }
+     .new{
+        
+        width:216px;
+        height: 55px;
+    }
+    button,  input[type="button"] {
+        
+        width:40px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 12px;
+        
+    }
+}
+
+@media (max-width: 320px) {
+    
+    #calculator{
+        
+        width:210px;
+        height: 315px;
+    }
+     .new{
+        
+        width:185px;
+        height: 50px;
+    }
+    button,  input[type="button"] {
+        
+        width:35px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 14px;
+         padding: 1px;
+        
+    }
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	/* Better text styling */
+	font: bold 14px Arial, sans-serif;
+}
+
+#calculator {
+	
+
+	background: linear-gradient(to bottom, #008C74, #004C66); /* calc main bak */
+	border-style: solid;
+    border-width: 7px 7px 7px 7px;
+	border-radius: 25px 25px 25px 25px;
+    border-color:#E5DD00;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 
+}
+
+/* screen */
+
+.new{
+    
+    margin: 5px;
+	padding: 2px;
+	background: #E5DD00; /* screen back */
+	border-radius: 10px  13px  13px  13px ;
+	
+	/* Typo */
+	font-size: 22px;
+	color:#004747;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;   
+    
+}
+
+
+/* butn styl */
+
+button,  input[type="button"] {
+    
+    float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+    padding-bottom: 10%;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #008C74, #004C66);
+    border-style: solid;
+    border-width: 2px;
+    border-color: E5DD00;
+    margin: 13px 4px 4px 10px;
+	color: #383838;           /*colour of buttn text */
+	line-height: 36px;
+	text-align: center;
+    font-weight: bold;
+    user-select: none;
+	transition: all 0.2s ease;
+}
